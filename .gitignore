@@ -1,0 +1,19 @@
+# Unity関連の不要ファイル
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+# Visual Studio関連
+.vscode/
+*.csproj
+*.sln
+*.userprefs
+
+# その他
+.DS_Store
+Thumbs.db
