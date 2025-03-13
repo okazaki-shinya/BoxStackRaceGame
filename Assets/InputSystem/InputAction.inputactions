@@ -9,7 +9,7 @@
                     "name": "PlayerMove",
                     "type": "Value",
                     "id": "906bc7ce-0dde-4350-8349-0706b95d2594",
-                    "expectedControlType": "Vector3",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
