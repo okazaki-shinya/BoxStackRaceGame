@@ -10,6 +10,8 @@ public class BoxGetManager : MonoBehaviour {
 
     private int _boxNum = 0;
 
+    public int BoxNum { get { return _boxNum; } }
+
     private void OnTriggerEnter(Collider other) {
         _boxItemScript = other.gameObject.GetComponent<BoxItem_Temp>();
 
