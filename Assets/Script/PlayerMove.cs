@@ -13,11 +13,12 @@ public class PlayerMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        // “ü—Í‚ð—LŒø‰»
+        inputMove.action.Enable();
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         transform.position += transform.forward * forwardSpeed * Time.deltaTime;
 
