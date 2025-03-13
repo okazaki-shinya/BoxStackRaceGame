@@ -8,7 +8,7 @@ public class StartManager : MonoBehaviour
 {
     [SerializeField] private bool isGameStarted = false;
     [SerializeField] private TextMeshProUGUI textUI;
-    [SerializeField] private string newText = "Game Start";
+    [SerializeField] private string newText = "ゲームスタート";
     [SerializeField] private float displayTime = 3f;
 
     
@@ -34,8 +34,6 @@ public class StartManager : MonoBehaviour
 
     void StartGame()
     {
-        Debug.Log("ゲームスタート");
-
         textUI.text = newText;
 
         StartCoroutine(HideUI(displayTime));
