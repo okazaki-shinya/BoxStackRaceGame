@@ -19,6 +19,7 @@ public class BoxGetManager : MonoBehaviour {
             _player.transform.position += transform.up * _boxSize;
 
             Vector3 spawnPosition = _player.transform.position - transform.up * _boxSize * _boxNum - transform.up * _boxSpawnOffset;
+            Instantiate(_box, spawnPosition, Quaternion.identity, _player.transform);
 
             _boxNum++;
 
