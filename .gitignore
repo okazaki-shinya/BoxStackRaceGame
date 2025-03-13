@@ -10,6 +10,7 @@ MemoryCaptures/
 
 # Visual Studio関連
 .vscode/
+.vs/
 *.csproj
 *.sln
 *.userprefs
