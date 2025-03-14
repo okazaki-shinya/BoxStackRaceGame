@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 275958662655432751}
   - component: {fileID: 7248547963664511621}
   - component: {fileID: 2674934927532051979}
+  - component: {fileID: 1110883312124541711}
   m_Layer: 0
   m_Name: "\u30D7\u30EC\u30A4\u30E4\u30FC"
   m_TagString: Untagged
@@ -169,3 +170,16 @@ MonoBehaviour:
   _box: {fileID: 7563326504938856670, guid: 96a610b36837b0145bbf2e1948185e0a, type: 3}
   _boxSize: 1
   _boxSpawnOffset: 1
+--- !u!114 &1110883312124541711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4116138083311446025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db105fcd5e20e1c48b450ef6092b3fb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goalText: {fileID: 0}
