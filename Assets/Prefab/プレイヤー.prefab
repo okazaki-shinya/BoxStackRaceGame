@@ -108,7 +108,7 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
-  m_Height: 2
+  m_Height: 1.5
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &275958662655432751
@@ -134,7 +134,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
@@ -168,8 +168,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _player: {fileID: 4116138083311446025}
   _box: {fileID: 7563326504938856670, guid: 96a610b36837b0145bbf2e1948185e0a, type: 3}
-  _boxSize: 1
-  _boxSpawnOffset: 1
+  _boxSize: 1.05
+  _boxSpawnOffset: 1.5
 --- !u!114 &1110883312124541711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,3 +183,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalText: {fileID: 0}
+  playerMove: {fileID: 0}
