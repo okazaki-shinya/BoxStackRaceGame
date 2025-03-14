@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2714406100040422005}
   - component: {fileID: 6656604940153190190}
   m_Layer: 0
-  m_Name: Plane 1
+  m_Name: "\u30B4\u30FC\u30EB"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 6201959401295411958}
   - component: {fileID: 5112290966564495930}
   m_Layer: 0
-  m_Name: "\u30B4\u30FC\u30EB"
+  m_Name: "\u30B4\u30FC\u30EB\u5224\u5B9A"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
