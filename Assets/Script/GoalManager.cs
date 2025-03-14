@@ -23,12 +23,14 @@ public class GoalManager : MonoBehaviour
         if(other.CompareTag("Goal"))
         {
             goalText.gameObject.SetActive(true);
+
+            if(playerMove!=null)
+            {
+                playerMove.enabled = false;
+            }
         }
 
-        if(playerMove!=null)
-        {
-            playerMove.enabled = false;
-        }
+        
     }
     // Update is called once per frame
     void Update()
