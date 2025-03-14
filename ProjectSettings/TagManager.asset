@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Goal
+  - FootBlock
   layers:
   - Default
   - TransparentFX
